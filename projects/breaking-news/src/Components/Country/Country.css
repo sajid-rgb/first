@@ -1,0 +1,13 @@
+.country-section{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 50px;
+}
+@media (min-width: 800px) {
+    .country-section{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+    }
+
+}

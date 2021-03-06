@@ -1,0 +1,20 @@
+
+@media (min-width: 990px) {
+    .main{
+        display:grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (max-width: 989px) and (min-width:710px){
+    .main{
+        display:grid;
+        grid-template-columns: auto auto ;
+    }
+}
+@media (max-width:709px){
+    .main{
+        display:grid;
+        grid-template-columns: auto;
+        margin-left: 50px;
+    }
+}
